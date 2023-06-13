@@ -8,11 +8,6 @@ interface Props {
     children: ReactNode;
 }
 
-export const metadata = {
-    title: "Basix Digital",
-    description: "Landing pages, Sites, Aplicativos e Sistemas",
-};
-
 export default function RootLayout({ children }: Props) {
     return (
         <ThemeProvider theme={defaultTheme}>
